@@ -10,8 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LivePushCameraPreviewController : UIPreViewController
+@interface LivePushCameraPreviewController : UIViewController
 - (instancetype)initWithStreamId:(NSString*)streamId isRTCPush:(BOOL)value audioQulity:(V2TXLiveAudioQuality)quality;
-Preview_NS_ASSUME_NONNULL_BEGIN
+@end
 
-NS_ASSUME_NONNULL_BEGIN
+NS_ASSUME_NONNULL_END
