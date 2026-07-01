@@ -1,6 +1,6 @@
 //
 //  LivePushCameraViewController.h
-//  MLVB-API-Example-OC
+//  MLVB-API-Sample-OC
 //
 //  Created by bluedang on 2021/6/24.
 //  Copyright © 2021 Tencent. All rights reserved.
@@ -10,8 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LivePushCameraViewController : UIViewController
+@interface LivePushCameraPreviewController : UIPreViewController
 - (instancetype)initWithStreamId:(NSString*)streamId isRTCPush:(BOOL)value audioQulity:(V2TXLiveAudioQuality)quality;
-@end
+Preview_NS_ASSUME_NONNULL_BEGIN
 
-NS_ASSUME_NONNULL_END
+NS_ASSUME_NONNULL_BEGIN
